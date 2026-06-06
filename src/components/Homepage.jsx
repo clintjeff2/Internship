@@ -12,25 +12,15 @@ function Homepage() {
           <h2>Guides for filling the form</h2>
 
           <p>
-            For the hubs provided to choose from, here is a breakdown of the
-            various hubs and what they will offer for this internship
+            Please follow these guidelines to complete your registration accurately:
           </p>
-          <ol>
-            <li>Web Development -- HTML, CSS, JS & MySQL </li>
-            <li>DevOps I -- Git - Jenkins</li>
-            <li>Devops II -- Cloud Computing - Jira</li>
-            <li>React Bootcamp -- Advanced Web Development</li>
-            <li>W-Language Programming</li>
-
-            <h4 className="biz">
-              Landmark School of Business and Social Management Special Bootcamp
-              {new Date().getFullYear()}
-            </h4>
-            <li>
-              Digital Transformation and Financial Empowerment in the Global
-              Economy
-            </li>
-          </ol>
+          <ul>
+            <li><strong>Personal Details:</strong> Provide your full legal name, valid email address, and active telephone number so we can reach you.</li>
+            <li><strong>Academic Info:</strong> Accurately input your Specialty, School name, and your First Semester GPA.</li>
+            <li><strong>Track Selection:</strong> Note that the only available track for this program is Software Developement. This selection is mandatory and cannot be changed.</li>
+            <li><strong>Additional Info:</strong> Make use of the message box to provide any other relevant details or questions.</li>
+            <li><strong>Review:</strong> Double-check all entered information before submitting to avoid errors in registration.</li>
+          </ul>
         </div>
         <Register />
       </div>
