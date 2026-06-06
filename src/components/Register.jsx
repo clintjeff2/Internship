@@ -43,11 +43,9 @@ function Register() {
 			data: intern,
 		})
 			.then(function (response) {
-				if (response.status === 201) {
-					setIsLoading(false);
-					alert('Successfully registered');
-					navigate('/bye');
-				}
+				setIsLoading(false);
+				alert('Successfully registered');
+				navigate('/bye');
 			})
 			.catch(function (error) {
 				setIsLoading(false);
