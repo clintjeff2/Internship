@@ -9,7 +9,7 @@ function Register() {
 	const [specialty, setSpecialty] = useState('');
 	const [school, setSchool] = useState('');
 	const [gpa, setGpa] = useState('');
-	const [hub, setHub] = useState('webDev');
+	const [hub, setHub] = useState('Software Developement');
 	const [message, setMessage] = useState('');
 
 	const [isLoading, setIsLoading] = useState(false);
@@ -132,14 +132,9 @@ function Register() {
 					name="hub"
 					id="hub"
 					value={hub}
-					onChange={(e) => setHub(e.target.value)}
+					disabled={true}
 				>
-					<option value="webDev">Web Development</option>
-					<option value="devops1">DevOps I</option>
-					<option value="devops2">DevOps II</option>
-					<option value="react">React Bootcamp</option>
-					<option value="wLang">W-Language Programming</option>
-					<option value="digitalTrans">Digital Transformation</option>
+					<option value="Software Developement">Software Developement</option>
 				</select>
 			</div>
 			<div className="input-field">
